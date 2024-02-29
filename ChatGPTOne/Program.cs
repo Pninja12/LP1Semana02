@@ -32,7 +32,7 @@ namespace ChatGPTOne
                     case "Qual o sentido da vida?":
                         conversa = "O sentido da vida é aquilo que fazes dela";
                         break;
-                    case "Que horas são?":
+                    case "Que horas sao?":
                         conversa = "Que abuso! Compra um relógio meu";
                         break;
                     case "Gostas de mim?":
