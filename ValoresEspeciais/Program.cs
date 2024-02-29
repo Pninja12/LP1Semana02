@@ -5,7 +5,9 @@ namespace ValoresEspeciais
     class Program
     {
         /// <summary>
-        /// 
+        /// Criação de valores máximos e mínimos de todos os tipos
+        /// e demonstração dos mesmos,
+        /// mais os infinitos positivo e negativo e o NaN
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
