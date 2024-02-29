@@ -4,14 +4,26 @@ namespace ChatGPTOne
 {
     class Program
     {
+        /// <summary>
+        /// Programa que responde perguntas específicas feitas pelo utilizador
+        /// que no fim repete caso a pergunta não seja "EXIT"
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             bool running = true;
+            
+            // Ciclo que pergunta e responde o utilizador e que para caso o
+            // utilizador escreva "EXIT"
             do
             {
                string conversa;
+
+                // Pergunta ao utilizador e espera pela resposta
                 Console.Write("O que queres saber?\n-> ");
                 conversa = Console.ReadLine(); 
+
+                // Várias respostas predefinidas pelo desenvolvedor
                 switch (conversa)
                 {
                     case "1 + 1":
@@ -36,6 +48,8 @@ namespace ChatGPTOne
                         conversa = "Peço desculpa, podes repetir?";
                         break;
                 }
+
+                // Resposta
                 Console.WriteLine(conversa + "\n\n");
             } while (running);
 
