@@ -87,7 +87,9 @@ namespace ValoresEspeciais
             Console.WriteLine($"+∞ = {double.PositiveInfinity}");
             Console.WriteLine($"−∞ = {double.NegativeInfinity}");
             Console.WriteLine($"Not a Number = {float.NaN}");
-            
+
+            Console.WriteLine($"Overflow positivo: {uint_b + 1}");
+            Console.WriteLine($"Overflow negativo: {uint_s - 1}");
             
             
             
