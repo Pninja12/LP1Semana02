@@ -14,6 +14,9 @@ namespace Cilindro
             resposta = Console.ReadLine(); //recebe variável
             float raio = float.Parse(resposta); //transforma variável 
                                                 //string em float
+
+            Console.Write("O volume do cilindro é: ");
+            Console.WriteLine($"{MathF.PI * Math.Pow(raio, 2) * altura}");
         }
     }
 }
