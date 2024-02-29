@@ -93,6 +93,11 @@ namespace ValoresEspeciais
 
             Console.WriteLine($"Overflow inalterado: {float_b + 12}");
             Console.WriteLine($"Overflow infinito: {float_b * 2}");
+
+            Console.WriteLine($"Underflow máximo: {float_s == float_s + 0.01}");
+            float f1 , f2 ;
+            f1 = f2 = 123456789.0f;
+            Console.WriteLine($"Underflow soma: {f1 == f2 + 0.0000001f}");
             
             
             
