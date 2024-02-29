@@ -90,6 +90,9 @@ namespace ValoresEspeciais
 
             Console.WriteLine($"Overflow positivo: {uint_b + 1}");
             Console.WriteLine($"Overflow negativo: {uint_s - 1}");
+
+            Console.WriteLine($"Overflow inalterado: {float_b + 12}");
+            Console.WriteLine($"Overflow infinito: {float_b * 2}");
             
             
             
