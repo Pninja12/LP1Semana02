@@ -4,6 +4,11 @@ namespace Cilindro
 {
     class Program
     {
+        /// <summary>
+        /// Programa que pede por um raio e uma altura e devolve o volume e 
+        /// a área de superfície de um cilindro 
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Console.Write("Qual a altura do cilindro: ");
@@ -17,9 +22,11 @@ namespace Cilindro
 
             Console.Write("O volume do cilindro é: ");
             Console.WriteLine($"{MathF.PI * Math.Pow(raio, 2) * altura}");
+                                //PI * raio^2 * altura
 
             Console.Write("A área de superfície do cilindro é: ");
             Console.WriteLine($"{2 * MathF.PI * raio * (raio + altura)}");
+                                //2 * PI * raio * (raio + altura)
         }
     }
 }
