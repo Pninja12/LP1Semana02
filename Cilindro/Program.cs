@@ -17,6 +17,9 @@ namespace Cilindro
 
             Console.Write("O volume do cilindro é: ");
             Console.WriteLine($"{MathF.PI * Math.Pow(raio, 2) * altura}");
+
+            Console.Write("A área de superfície do cilindro é: ");
+            Console.WriteLine($"{2 * MathF.PI * raio * (raio + altura)}");
         }
     }
 }
