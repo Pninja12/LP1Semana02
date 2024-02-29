@@ -82,6 +82,10 @@ namespace ValoresEspeciais
             Console.WriteLine($"Mínimo decimal: {decimal_s}");
             Console.WriteLine($"Máximo decimal: {decimal_b}");
 
+            Console.WriteLine($"+∞ = {double.PositiveInfinity}");
+            Console.WriteLine($"−∞ = {double.NegativeInfinity}");
+            Console.WriteLine($"Not a Number = {float.NaN}");
+            
             
             
             
